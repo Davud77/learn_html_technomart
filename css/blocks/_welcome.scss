@@ -1,0 +1,52 @@
+.welcome {
+    
+    height: 380px;
+    &_item {
+      margin-top: 45px;
+      width: 300px;
+      display: inline-flex;
+    }
+    &_text {
+      
+      font-size: 16px;
+      font-style: italic;
+      line-height: 1.44;
+      font-family: 'cuprumbold';
+      text-align: left;
+      color: #ee3643;
+    }
+    &_contact {
+      display: inline-flex;
+      flex-direction: column;
+      text-align: center;
+      &_phone {
+        
+        font-size: 21px;
+        font-family: 'cuprumbold';
+        color: #ee3643;
+      }
+      &_adr {
+        margin-top: 10px;
+        font-size: 14px;
+        font-family: 'cuprumbold';
+        text-align: center;
+        color: #32425c;
+      }
+    }
+    &_login {
+      display: inline-flex;
+      justify-content: space-around;
+      &_auth {
+        
+        font-size: 21px;
+        font-family: 'cuprumbold';
+        color: #000;
+      }
+      &_reg {
+
+        font-size: 21px;
+        font-family: 'cuprumbold';
+        color: #000;
+      }
+    }
+  }

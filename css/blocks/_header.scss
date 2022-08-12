@@ -1,0 +1,45 @@
+.header {
+  height: 42px;
+  background-color: #293449;
+  &_logo {
+    display: inline-block;
+    width: 220px;
+    height: 47px;
+    box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+    background-color: #ee3643;
+    text-align: center;
+    color: #fff;
+    margin-right: 30px;
+    line-height: 42px;
+    font-size: 23px;
+  }
+  &_search {
+    display: inline-block;
+    color: #fff;
+    margin-right: 274px;
+    font-size: 17px;
+  }
+  &_bookmark {
+    display: inline-block;
+    color: #fff;
+    margin-right: 30px;
+    font-size: 17px;
+  }
+  &_trash {
+    display: inline-block;
+    color: #fff;
+    margin-right: 30px;
+    font-size: 17px;
+  }
+  &_buy {
+    display: inline-block;
+    width: 150px;
+    height: 42px;
+    border: none;
+    font-size: 17px;
+    
+    text-align: center;
+    color: #fff;
+    background-color: #63a63e;
+  }
+}

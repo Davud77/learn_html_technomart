@@ -1,0 +1,148 @@
+* {
+  font-family: "cuprum";
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  position: relative;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 42px;
+  background-color: #293449;
+}
+.header_logo {
+  display: inline-block;
+  width: 220px;
+  height: 47px;
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+  background-color: #ee3643;
+  text-align: center;
+  color: #fff;
+  margin-right: 30px;
+  line-height: 42px;
+  font-size: 23px;
+}
+.header_search {
+  display: inline-block;
+  color: #fff;
+  margin-right: 274px;
+  font-size: 17px;
+}
+.header_bookmark {
+  display: inline-block;
+  color: #fff;
+  margin-right: 30px;
+  font-size: 17px;
+}
+.header_trash {
+  display: inline-block;
+  color: #fff;
+  margin-right: 30px;
+  font-size: 17px;
+}
+.header_buy {
+  display: inline-block;
+  width: 150px;
+  height: 42px;
+  border: none;
+  font-size: 17px;
+  text-align: center;
+  color: #fff;
+  background-color: #63a63e;
+}
+
+.welcome {
+  height: 380px;
+}
+.welcome_item {
+  margin-top: 45px;
+  width: 300px;
+  display: inline-flex;
+}
+.welcome_text {
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.44;
+  font-family: "cuprumbold";
+  text-align: left;
+  color: #ee3643;
+}
+.welcome_contact {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+}
+.welcome_contact_phone {
+  font-size: 21px;
+  font-family: "cuprumbold";
+  color: #ee3643;
+}
+.welcome_contact_adr {
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: "cuprumbold";
+  text-align: center;
+  color: #32425c;
+}
+.welcome_login {
+  display: inline-flex;
+  justify-content: space-around;
+}
+.welcome_login_auth {
+  font-size: 21px;
+  font-family: "cuprumbold";
+  color: #000;
+}
+.welcome_login_reg {
+  font-size: 21px;
+  font-family: "cuprumbold";
+  color: #000;
+}
+
+.windows {
+  height: 410px;
+  background-color: #783fa0;
+}
+
+.product {
+  height: 410px;
+  background-color: #a03f80;
+}
+
+.company {
+  height: 410px;
+  background-color: #a0a03f;
+}
+
+.services {
+  height: 410px;
+  background-color: #a04c3f;
+}
+
+.about {
+  height: 410px;
+  background-color: #3fa042;
+}
+
+.footer {
+  height: 300px;
+  background-color: #32425c;
+}
+
+@font-face {
+  font-family: "cuprum";
+  src: url(/fonts/web/cuprum.woff) format("woff"), url(/fonts/web/cuprum.woff2) format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "cuprumbold";
+  src: url(/fonts/web/cuprumbold.woff) format("woff"), url(/fonts/web/cuprumbold.woff2) format("woff2");
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */

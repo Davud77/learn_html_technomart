@@ -1,0 +1,42 @@
+* {
+    font-family: 'cuprum';
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    position: relative;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+
+
+
+@import 'blocks/header';
+@import 'blocks/welcome';
+@import 'blocks/windows';
+@import 'blocks/product';
+@import 'blocks/company';
+@import 'blocks/services';
+@import 'blocks/about';
+@import 'blocks/footer';
+
+
+
+
+@font-face {
+    font-family: 'cuprum';
+    src: url(/fonts/web/cuprum.woff) format('woff'), url(/fonts/web/cuprum.woff2) format('woff2');
+    font-weight: 400;
+  }
+  
+  
+  @font-face {
+    font-family: 'cuprumbold';
+    src: url(/fonts/web/cuprumbold.woff) format('woff'), url(/fonts/web/cuprumbold.woff2) format('woff2');
+    font-weight: 700;
+  }
