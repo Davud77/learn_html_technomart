@@ -4,4 +4,31 @@
     width: 135px;
     height: 38px;
     cursor: pointer;
+    &_arr {
+        width: 141px;
+        height: 36px;
+        font-size: 17.5px;
+        font-weight: bold;
+        background-color: red;
+        color: #fff;
+        display: block;
+        border: none;
+        position: relative;
+        margin: 0 auto;
+        &:after, &:before {
+            left: 100%;
+            top: 50%;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+        }
+        &:after {
+            border-left-color:  red;
+            border-width: 18px;
+            margin-top: -18px;
+        }
+    }
   }
+  
