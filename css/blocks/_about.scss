@@ -1,5 +1,38 @@
 .about {
     
     height: 410px;
-    background-color: #3fa042;
+    &_content {
+      display: flex;
+      &_item {
+        margin-right: 90px;
+      }
+      &_li {
+        &::marker {
+          color: red;
+        }
+      }
+      &_title {
+        padding-top: 30px;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: left;
+      }
+      &_p {
+        width: 510px;
+        padding-top: 10px;
+        font-size: 13px;
+        line-height: 1.5;
+        text-align: left;
+      }
+      &_button {
+        margin-top: 20px;
+        width: 300px;
+        height: 38px;
+        background-color: #ee3643;
+        text-transform: uppercase;        
+        font-size: 14px;
+        line-height: 1.25;
+        color: #fff;
+      }
+    }
   }
