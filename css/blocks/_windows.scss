@@ -1,5 +1,80 @@
 .windows {
     
-    height: 410px;
-    background-color: #783fa0;
+    height: 450px;
+    &_line1 {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    &_line2 {
+      display: flex;
+      justify-content: space-between;
+    }
+    &_item {
+      display: flex;
+      margin-top: 20px;
+      width: 300px;
+      height: 123px;
+      &_block {
+        margin: 25px 0px 25px 25px;
+      }
+      &_title {
+        font-size: 24px;
+        color: #fff;
+      }
+      &_img {
+        margin: 25px auto;
+        max-height: 55%;
+      }
+    }
   }
+.mod1 {
+  background-color: #ffbf47;
+  &_button {
+    background-color: #e5ac40;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+}
+.mod2 {
+  background-color: #3bbce3;
+  &_button {
+    background-color: #35a9cc;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+}
+.mod3 {
+  background-color: #dc91d8;
+  &_button {
+    background-color: #c682c2;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+}
+.mod4 {
+  width: 620px;
+  height: 266px;
+  background-image: url(/img/slider\ 1.png);
+  &_button {
+    background-color: #ee3643;
+    margin: 205px 25px 25px ;
+    text-transform: uppercase;
+  }
+}
+.mod5 {
+  background-color: #8ed78f;
+  &_button {
+    background-color: #80c180;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+}
+.mod6 {
+  background-color: #ffc047;
+  &_button {
+    background-color: #e5ac40;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+}

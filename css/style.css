@@ -13,6 +13,14 @@ html, body {
   margin: 0 auto;
 }
 
+.button {
+  border: none;
+  color: #fff;
+  width: 135px;
+  height: 38px;
+  cursor: pointer;
+}
+
 .header {
   height: 42px;
   background-color: #293449;
@@ -107,8 +115,89 @@ html, body {
 }
 
 .windows {
-  height: 410px;
-  background-color: #783fa0;
+  height: 450px;
+}
+.windows_line1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.windows_line2 {
+  display: flex;
+  justify-content: space-between;
+}
+.windows_item {
+  display: flex;
+  margin-top: 20px;
+  width: 300px;
+  height: 123px;
+}
+.windows_item_block {
+  margin: 25px 0px 25px 25px;
+}
+.windows_item_title {
+  font-size: 24px;
+  color: #fff;
+}
+.windows_item_img {
+  margin: 25px auto;
+  max-height: 55%;
+}
+
+.mod1 {
+  background-color: #ffbf47;
+}
+.mod1_button {
+  background-color: #e5ac40;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.mod2 {
+  background-color: #3bbce3;
+}
+.mod2_button {
+  background-color: #35a9cc;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.mod3 {
+  background-color: #dc91d8;
+}
+.mod3_button {
+  background-color: #c682c2;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.mod4 {
+  width: 620px;
+  height: 266px;
+  background-image: url(/img/slider\ 1.png);
+}
+.mod4_button {
+  background-color: #ee3643;
+  margin: 205px 25px 25px;
+  text-transform: uppercase;
+}
+
+.mod5 {
+  background-color: #8ed78f;
+}
+.mod5_button {
+  background-color: #80c180;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.mod6 {
+  background-color: #ffc047;
+}
+.mod6_button {
+  background-color: #e5ac40;
+  margin-top: 10px;
+  text-transform: uppercase;
 }
 
 .product {
