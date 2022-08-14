@@ -3,8 +3,11 @@
     height: 410px;
     &_content {
       display: flex;
-      &_item {
-        margin-right: 90px;
+      &_left {
+        width: 1000px;
+      }
+      &_center {
+        width: 400px;
       }
       &_li {
         &::marker {
@@ -18,7 +21,7 @@
         text-align: left;
       }
       &_p {
-        width: 510px;
+        
         padding-top: 10px;
         font-size: 13px;
         line-height: 1.5;
