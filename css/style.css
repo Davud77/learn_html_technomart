@@ -7,6 +7,11 @@ html, body {
   padding: 0px;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .container {
   position: relative;
   max-width: 940px;
@@ -93,7 +98,7 @@ html, body {
 }
 
 .welcome {
-  height: 380px;
+  height: 300px;
 }
 .welcome_item {
   margin-top: 45px;
@@ -138,6 +143,22 @@ html, body {
   font-size: 21px;
   font-family: "cuprumbold";
   color: #000;
+}
+.welcome_nav {
+  margin-top: 30px;
+  background-color: #32425c;
+}
+.welcome_nav_ul {
+  display: flex;
+  justify-content: space-around;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  list-style-type: none;
+  height: 40px;
+}
+.welcome_nav_ul_li {
+  margin-top: 10px;
+  color: #fff;
 }
 
 .windows {

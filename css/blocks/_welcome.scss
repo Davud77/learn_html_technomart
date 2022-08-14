@@ -1,6 +1,6 @@
 .welcome {
     
-    height: 380px;
+    height: 300px;
     &_item {
       margin-top: 45px;
       width: 300px;
@@ -47,6 +47,21 @@
         font-size: 21px;
         font-family: 'cuprumbold';
         color: #000;
+      }
+    }
+    &_nav {
+      margin-top: 30px;
+      background-color: #32425c;
+      &_ul {
+        display: flex;
+        justify-content: space-around;
+        padding-inline-start: 0;
+        list-style-type: none;
+        height: 40px;
+        &_li {
+          margin-top: 10px;
+          color: #fff;
+        }
       }
     }
   }
